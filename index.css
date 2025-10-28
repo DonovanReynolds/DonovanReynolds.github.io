@@ -1,0 +1,38 @@
+p {
+    font-family: "Verdana", sans-serif;
+    color: #000000;
+}
+
+li {
+    font-family: "Verdana", sans-serif;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+header{
+    padding-bottom: 50px;
+}
+
+a {
+    font-family: "Verdana", sans-serif;
+}
+
+footer {
+    bottom: 0;
+}
+
+
+.image {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 20px;
+    padding-right: 60px;
+}
+
+body {
+    margin-top: 20px;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
