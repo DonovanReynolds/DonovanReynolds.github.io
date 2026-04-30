@@ -3,41 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Donovan Reynolds</title>
+    <title>Donovan Reynolds</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <header>
+
+<header class="site-header">
+    <div class="container">
         <h1>Donovan Reynolds</h1>
+
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="cv.html">CV</a> |
-            <a href="https://github.com/DonovanReynolds" target="_blank">Github</a> 
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="https://github.com/DonovanReynolds" target="_blank">GitHub</a>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main>
-        <section>
+<main class="container">
+
+    <section class="hero">
+        <div class="hero-text">
             <h2>About Me</h2>
-            <div class = "image">
-                <p> I am currently finishing my Masters in Computer Engineering at the University of Central Florida. My interests are in embedded systems and low level software.</p>
-                <img src = "resources/IMG_6190.JPG" alt="" height = 250>
-            </div>
-        </section>
-        <section>
-            <h2>What I Enjoy</h2>
-            <li>I enjoy learning about all things computers and being able to share that knowledge with others.</li>
-            <li>Video games and board games.</li>
-            <li>Spending time with my dogs</li>
-        </section>
-        <section>
-            <h3>Resources</h3>
-        </section>
-    
-        </main>
 
-    <footer>
-        <p>&copy; 2025 Donovan Reynolds</p>
-    </footer>
+            <p>
+                Graduate in computer engineering with interests in embedded systems,
+                system software, and software engineering. Experienced with low-level
+                programming languages, computer architecture, and systems development
+                through academic projects and research.
+            </p>
+
+            <p>
+                I completed my Master’s in Computer Engineering at the
+                University of Central Florida (UCF).
+            </p>
+        </div>
+
+        <div class="hero-image">
+            <img src="resources/headshot.jpeg" alt="Donovan Reynolds" />
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>What I Enjoy</h2>
+
+        <ul>
+            <li>Learning about computers and sharing knowledge with others.</li>
+            <li>Video games and board games.</li>
+            <li>Spending time with my dogs.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Resources</h2>
+
+        <ul>
+            <li><a href="cv.html">Resume</a></li>
+            <li><a href="https://github.com/DonovanReynolds" target="_blank">GitHub Projects</a></li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Donovan Reynolds</p>
+</footer>
+
 </body>
 </html>
