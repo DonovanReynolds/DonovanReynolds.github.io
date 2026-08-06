@@ -273,3 +273,9 @@ h2 {
         text-align: center;
     }
 }
+
+.card a {
+    color: #7db7ff;
+    font-weight: 700;
+    text-decoration: none;
+}
